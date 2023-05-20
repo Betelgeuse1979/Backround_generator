@@ -9,7 +9,7 @@ jpegfolder = (sys.argv[1])
 pngfolder  = (sys.argv[2])
 
 dir_list = os.listdir(jpegfolder)
-isdir = os.path.isdir(pngfolder)
+
 
 
 if not os.path.exists(pngfolder):
